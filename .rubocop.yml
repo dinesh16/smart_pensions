@@ -1,0 +1,25 @@
+# docs:
+# http://rubocop.readthedocs.io/en/latest/cops_style/
+# https://github.com/bbatsov/rubocop/blob/master/config/default.yml
+Metrics/LineLength:
+  Max: 100
+Documentation:
+  Enabled: false
+StringLiterals:
+  EnforcedStyle: single_quotes
+Style/SymbolArray:
+  Enabled: false
+Style/EmptyMethod:
+  EnforcedStyle: expanded
+Style/Documentation:
+  Enabled: false
+Style/ClassAndModuleChildren:
+  Enabled: false
+Bundler/OrderedGems:
+  Enabled: false
+Layout/AlignParameters:
+  Enabled: false
+Style/RaiseArgs:
+  Enabled: false
+Style/FrozenStringLiteralComment:
+  Enabled: false
