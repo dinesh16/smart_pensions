@@ -9,3 +9,5 @@ Read logs file and display page count and uniq page count
 - then run it `./parser.rb webserver.log`
 
 - run test `bundle exec rspec`
+
+![image](https://user-images.githubusercontent.com/5870632/58555129-99a00700-8210-11e9-918a-6fa2b9bf8f11.png)
