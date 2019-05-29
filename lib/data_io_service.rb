@@ -7,7 +7,7 @@ class DataIoService
   end
 
   def records
-    raise 'file not available' unless File.exist?(file_path)
+    abort('file not available') unless File.exist?(file_path)
 
     File.read(file_path).split("\n").map do |log_line|
       page_and_ip = log_line.split(' ')

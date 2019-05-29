@@ -8,6 +8,7 @@ require_relative './lib/data_io_service'
 class Parser
   attr_reader :data_io_service
   def initialize
+    abort('please pass the file name as first argument, eg: webserver.log' ) if ARGV[0].nil?
     @data_io_service = DataIoService.new(ARGV[0])
   end
 end
