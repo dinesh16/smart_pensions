@@ -1,3 +1,5 @@
+#!/usr/bin/env ruby
+
 require 'pry'
 require 'terminal-table'
 require_relative './lib/data_processor'
@@ -6,7 +8,7 @@ require_relative './lib/data_io_service'
 class Parser
   attr_reader :data_io_service
   def initialize
-    @data_io_service = DataIoService.new(ARGV.first)
+    @data_io_service = DataIoService.new(ARGV[0])
   end
 end
 
